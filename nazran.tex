@@ -1,0 +1,313 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Nazran Khondokar} \\ \vspace{1pt}
+    Dhaka, Bangladesh \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +880-1714-516763 ~ \href{mailto:nazran91@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{nazran91@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/nazran91/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/nazran91}}  ~
+    \href{https://github.com/NazranKhondokar/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/NazranKhondokar}}
+    \vspace{-8pt}
+\end{center}
+
+\section{Career Summary}
+With 5 years of experience Java developer, I’ve developed many mission-critical projects from scratch to deployment by following Scrum methodology and Java 8/11/17. I have been involved in the development of microservice as an effective team member in EdTech industry. As a software engineer with decent knowledge of SOLID principles, I possess diverse experience in planning \& executing multiple projects that solve various business problems and deliver excellent results. I am willing to go the extra mile to overcome any hurdles I may face.
+            
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, JavaScript, TypeScrpt, Dart, Python, XML, C, SQL, Kotlin.} \\
+     \textbf{Frameworks \& Libraries}{: Spring Boot, Servlet, Hibernate, Kafka, Angular, Flutter, Android.}\\
+     \textbf{Database}{: Microsoft SQL Server, MySQL, Redis, SQLite, RoomDB, Firestore.}\\
+     \textbf{Testing}{: JUnit.}
+     \textbf{Identity \& Access Management}{: Keycloak.}\\
+     \textbf{Encryption/Decryption}{: AES 256.}
+     \textbf{AWS}{: DynamoDB, EC2, S3.}\\
+     \textbf{Build tool}{: Maven, Gradle.}
+     \textbf{Project management system}{: JIRA, Open Project, Trello, Asana.}\\
+     \textbf{Environment}{: IntelliJ IDEA, PyCharm, Netbeans, Android Studio, XCode, Eclipse, DBeaver.}\\
+     \textbf{Operating System}{: Mac OS, Windows, Linux.}
+     \textbf{Server}{: Docker, Netflix Eureka, CentOS, Ubuntu.}
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+\resumeSubheading
+      {\href{https://www.eatlbd.com/}{Ethics Advance Technology Limited}}{May 2021 - Present}
+      {Software Engineer}{Dhaka, BD}
+      \resumeItemListStart
+        \resumeItem{\textbf {Integrated Educational Information Management System} $|$ \emph{Spring Boot, Kafka, Keycloak, MSSQL, Docker}}\\
+        {Focused on developing REST API, scaling, analyzing software requirements, and preparing SRS and diagrams. There are 34 modules related to Students, Teachers, and Institutions from Class VI to XII data. I am responsible for developing 4 modules.
+        \item “E-Survey” an annual survey report of 40K institutes:
+        \begin{itemize}
+            \item Manage to generate circular with date range region-wise to submit institutional data by admin.
+            \item Institute-wise dynamic table generation to submit teacher, student, employee, degree, etc information by the institute head.
+            \item Provide a multi-type admin dashboard to review the institutional data and forward it to the director to finalize data for the survey report.
+        \end{itemize}
+        \item \href{https://drive.google.com/file/d/1fVWXGnWhhOyQ3PxP9Sq6xS4-KbgBTuGu}{\raisebox{-0.2\height}\ \underline{“Educational Institute Identification Number” generation:}}
+        \begin{itemize}
+            \item Provide the registration panel with valid credentials, the login process, and the application panel to request for “Institute Identification Number” with Govt permission documents.
+        \end{itemize}
+        \item “Non-Govt Teacher Registration Certificate Authority” result process and allocation on the institute:
+        \begin{itemize}
+            \item Build async process to upload certified results from Excel sheet.
+            \item Generate a merit list with an optimized query for all batches.
+            \item Provide a panel to submit subject and designation-wise teacher requisitions from the institute
+through payment.
+            \item After taking the choice from applicants, generate the result to allocate an applicant through the seat allocation algorithm.
+        \end{itemize}
+}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{http://rokomari.com/}{Rokomari}}{Jun 2019 - May 2021}
+      {Software Engineer}{Dhaka, BD}
+      \resumeItemListStart
+        \resumeItem{\textbf {Rokomari Telemarketing Service:} $|$ \emph{Spring Web, Security, Data JPA, MySQL, Angular}}\\
+          {Build the service for the telemarketing team where an admin can assign different types of customers to different types of agents then agents call customers through the Rokomari telemarketing android VOIP app.}
+
+        \resumeItem
+        {\href{https://apps.apple.com/us/app/rokomari-trusted-online-store/id1493045502}{\raisebox{-0.2\height}\ \underline{\textbf{Rokomari (Android \& iOS)}}} $|$ \emph{Flutter, Firebase (Crashlytics \& Push notification), Facebook SDK, Payment Gateway}}\\
+          {
+            \begin{itemize}
+            \item Build a hybrid app that can experience incredible online shopping.
+            \item Build the app architecture with BLoC pattern.
+            \item Build the most complicated product browse page UI, filtering, sorting, and pagination with Restful API
+            integration.
+            \item Build user account section UI \& API integration:
+            \begin{itemize}
+            \item User account update, avatar change, phone number \& password change with OTP.
+            \item User orders, order tracking, product reviews \& ratings.
+            \item Create a favorite list with multi products, delete the list, and create a wish list.
+            \end{itemize}
+            \item Build authorization section UI \& API integration: User registration, login, forgot \& change password.
+            \item Build the fastest auto-suggestion product search.
+            \item Add crashlytics \& push notification with Firebase and OneSinal.
+            \item Add marketing Facebook SDK \& Publish the app to the Apple app store.
+            \end{itemize}
+        }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://www.uumoo.com.bd/}{UUMOO Limited}}{May 2018 - May 2019}
+      {Full Stack App Developer}{Dhaka, BD}
+      \resumeItemListStart
+        \resumeItem {\href{https://drive.google.com/drive/folders/1X2iBtjhOmny8VFmWlqiz21AhMAnCbTnk}{\raisebox{-0.2\height}\ \underline{\textbf{UUMOO Pocket \& Drawer}}} $|$ \emph{QR, OCR, AES/RSA, Room DB, Retrofit, Proguard, Google Map clustering}}\\
+          {
+            \begin{itemize}
+            \item Build \& maintenance a payment service that enables users to exchange, trade and
+            conduct commerce.
+            \item Build the interactive custom UI with XML and Java.
+            \item Working with QR Code, OCR (Firebase ML Kit), android security (AES/RSA).
+            \item Store local data with Room \& Load server data with Volley, Retrofit.
+            \item Push data handling and notify the app.
+            \item Detect user location and find available UUMOO at different distances using REST API.
+            \item Custom Google Map with clustering.
+            \item Using ProGuard for obfuscation and making it difficult to reverse engineering
+            \end{itemize}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {MAX IT}{Oct 2017 - Apr 2018}
+      {Android Application Developer}{Dhaka, BD}
+      \resumeItemListStart
+        \resumeItem {\href{https://play.google.com/store/apps/details?id=net.maxitbd.takshal&hl=en&gl=US}{\raisebox{-0.2\height}\ \underline{\textbf{Takshal}}} $|$ \emph{Android, Laravel, Facebook auth}}\\
+          {\begin{itemize}
+            \item Build \& maintain an e-commerce app where users are going to buy the most exclusive Brand watches.
+         \end{itemize}}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {\href{https://infinityflamesoft.com/}{Infinity Flame Soft}}{Oct 2016 - Sep 2017}
+      {Trainer, Android Application Development}{Sylhet, BD}
+    
+  \resumeSubHeadingListEnd
+\vspace{1pt}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://www.sust.edu/}{\textbf{Shahjalal University of Science and Technology}}}{Sylhet, BD}
+      {Bachelor of Science in Computer Science and Engineering;  CGPA: 3.31 out of 4}{Jan. 2013 -- Jan. 2018}
+          \resumeSubheading
+      {\href{https://acc.edu.bd/}{\textbf{Adamjee Cantonment College}}}{Dhaka, BD}
+      {Higher Secondary Certificate;  GPA: 5 out of 5}{Jul. 2010 -- Jul. 2012}
+  \resumeSubHeadingListEnd
+\vspace{1pt}
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small Data Structures
+                \item Software Development
+                \item Algorithms Analysis
+                \item Database Management
+                \item Artificial Intelligence
+                \item Project Management
+                \item Machine Learning
+                \item Computer Architecture
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+\vspace{10pt}
+
+%-----------INVOLVEMENT---------------
+\section{Programming Contest}
+            \resumeItemListStart
+                \resumeItem{Got a good position on Islamic University of Technology 5th \& 6th ICT Fest Programming Contest 2014 \& 2015. Also on State University National Collegiate Programming Contest 2014.}
+                \resumeItem{350+ ACM problem solving on 
+                {\href{https://uhunt.onlinejudge.org/id/249088}{\raisebox{-0.2\height}\ \underline{\textbf{Uva}}}}, Codeforces.}
+            \resumeItemListEnd
+\vspace{-10pt}
+
+%-----------Training---------------
+\section{Training}
+  \resumeItemListStart
+    \resumeItem
+      {\href{https://gameapp.gov.bd/}{\raisebox{-0.2\height}\ \underline{\textbf{Training of Trainers}}} (AIUB - 2018) :
+      {Skill Development for Mobile Game and Application}}
+        \resumeItem
+        {\href{https://www.eatlbd.com/index.php?r=site/products&id=4}{\raisebox{-0.2\height}\ \underline{\textbf{EATL Mobile App Development Training}}} (SUST - 2015) : {Android Development Course}}
+        \resumeItem
+      {\textbf{Advanced Mobile Game Development \& Graphics Design} (LICT - 2016) :
+      {Unity3d and Blender Learning}}
+        \resumeItem
+      {\textbf{Bangladesh Android Study Jam} (SUST - 2015) :
+      {Udacity Android Development Course}}
+  \resumeItemListEnd
+\vspace{-10pt}
+
+%-----------Training---------------
+\section{Language}
+  \resumeItemListStart
+    \resumeItem
+      {Bangla as mother tongue, fluent English}
+  \resumeItemListEnd
+  
+\end{document}
