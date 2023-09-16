@@ -1,6 +1,6 @@
 ## Build PDF when run `.tex` file on TeXShop
 - Install MacTeX with builtin editor (TexLive) - (3.2GB)
-- Open the Terminal app on macOS
+- Open the Terminal
 
 - If `brew` not installed in your machine then
 ```bash
